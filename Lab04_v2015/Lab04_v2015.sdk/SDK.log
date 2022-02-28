@@ -1,0 +1,27 @@
+12:32:03 INFO  : Processing command line option -hwspec /home/grads/w/willytwsu/ECEN749_TW/Lab04/Lab04_v2015/Lab04_v2015.sdk/multiply_wrapper.hdf.
+12:32:05 INFO  : Launching XSDB server: xsdb -n -s /opt/coe/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+12:32:08 INFO  : XSDB server has started successfully.
+10:21:39 INFO  : Launching XSDB server: xsdb -n -s /opt/coe/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+10:21:40 INFO  : XSDB server has started successfully.
+10:21:45 INFO  : Processing command line option -hwspec /home/grads/w/willytwsu/ECEN749_TW/Lab04/Lab04_v2015/Lab04_v2015.sdk/multiply_wrapper.hdf.
+10:21:46 INFO  : Checking for hwspec changes in the project multiply_wrapper_hw_platform_0.
+10:23:24 INFO  : Invoking Bootgen: bootgen -image FSBL.bif -o /home/grads/w/willytwsu/ECEN749_TW/Lab04/Lab04_v2015/Lab04_v2015.sdk/FSBL/bootimage/BOOT.bin
+10:23:24 INFO  : Creating new bif file /home/grads/w/willytwsu/ECEN749_TW/Lab04/Lab04_v2015/Lab04_v2015.sdk/FSBL/bootimage/FSBL.bif
+10:23:25 INFO  : Bootgen command execution is done.
+10:38:15 INFO  : Invoking Bootgen: bootgen -image output.bif -o /home/grads/w/willytwsu/ECEN749_TW/Lab04/boot_image/BOOT.bin
+10:38:15 INFO  : Creating new bif file /home/grads/w/willytwsu/ECEN749_TW/Lab04/boot_image/output.bif
+10:38:15 INFO  : Bootgen command execution is done.
+10:33:29 INFO  : Launching XSDB server: xsdb -n -s /opt/coe/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+10:33:30 INFO  : XSDB server has started successfully.
+10:33:39 INFO  : Processing command line option -hwspec /home/grads/w/willytwsu/ECEN749_TW/Lab05/Lab04/Lab04_v2015/Lab04_v2015.sdk/multiply_wrapper.hdf.
+10:41:15 INFO  : Launching XSDB server: xsdb -n -s /opt/coe/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+10:41:16 INFO  : XSDB server has started successfully.
+10:41:19 INFO  : Processing command line option -hwspec /home/grads/w/willytwsu/ECEN749_TW/Lab05/Lab04/Lab04_v2015/Lab04_v2015.sdk/multiply_wrapper.hdf.
+10:41:20 INFO  : Checking for hwspec changes in the project multiply_wrapper_hw_platform_1.
+10:49:16 INFO  : Launching XSDB server: xsdb -n -s /opt/coe/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+10:49:17 INFO  : XSDB server has started successfully.
+10:49:17 INFO  : Processing command line option -hwspec /home/grads/w/willytwsu/ECEN749_TW/Lab05/Lab04/Lab04_v2015/Lab04_v2015.sdk/multiply_wrapper.hdf.
+10:49:18 INFO  : Checking for hwspec changes in the project multiply_wrapper_hw_platform_1.
+11:04:37 INFO  : Invoking Bootgen: bootgen -image output.bif -o /home/grads/w/willytwsu/ECEN749_TW/Lab05/Lab04/boot_image/BOOT.bin -w on
+11:04:37 INFO  : Overwriting existing bif file /home/grads/w/willytwsu/ECEN749_TW/Lab05/Lab04/boot_image/output.bif
+11:04:38 INFO  : Bootgen command execution is done.

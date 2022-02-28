@@ -1,0 +1,55 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Nov  3 10:47:05 2021
+# Process ID: 2417
+# Log file: /home/grads/w/willytwsu/ECEN749_TW/Lab05/Lab04/Lab04_v2015/Lab04_v2015.runs/impl_1/multiply_wrapper.vdi
+# Journal file: /home/grads/w/willytwsu/ECEN749_TW/Lab05/Lab04/Lab04_v2015/Lab04_v2015.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source multiply_wrapper.tcl -notrace
+Command: open_checkpoint multiply_wrapper_routed.dcp
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-s7-25:part0:1.0 available at /opt/coe/Xilinx/Vivado/2015.2/data/boards/board_files/arty-s7-25/E.0/board.xml as part xc7s25csga324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-s7-50:part0:1.0 available at /opt/coe/Xilinx/Vivado/2015.2/data/boards/board_files/arty-s7-50/B.0/board.xml as part xc7s50csga324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:cmod-s7-25:part0:1.0 available at /opt/coe/Xilinx/Vivado/2015.2/data/boards/board_files/cmod-s7-25/B.0/board.xml as part xc7s25csga225-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:cora-z7-07s:part0:1.0 available at /opt/coe/Xilinx/Vivado/2015.2/data/boards/board_files/cora-z7-07s/B.0/board.xml as part xc7z007sclg400-1 specified in board_part file is either invalid or not available
+INFO: [Netlist 29-17] Analyzing 13 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.2
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/grads/w/willytwsu/ECEN749_TW/Lab05/Lab04/Lab04_v2015/Lab04_v2015.runs/impl_1/.Xil/Vivado-2417-zach-354a-02.engr.tamu.edu/dcp/multiply_wrapper_early.xdc]
+Finished Parsing XDC File [/home/grads/w/willytwsu/ECEN749_TW/Lab05/Lab04/Lab04_v2015/Lab04_v2015.runs/impl_1/.Xil/Vivado-2417-zach-354a-02.engr.tamu.edu/dcp/multiply_wrapper_early.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:00.21 . Memory (MB): peak = 1328.426 ; gain = 2.000 ; free physical = 484 ; free virtual = 17851
+Restored from archive | CPU: 0.170000 secs | Memory: 1.534698 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:00.21 . Memory (MB): peak = 1328.426 ; gain = 2.000 ; free physical = 484 ; free virtual = 17851
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Project 1-484] Checkpoint was created with build 1266856
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-1223] The version limit for your license is '2021.02' and will expire in -248 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Running DRC as a precondition to command write_bitstream
+INFO: [DRC 23-27] Running DRC with 8 threads
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP multiply_i/multiply_0/inst/multiply_v2015_0_S00_AXI_inst/tmp_reg0 input A B is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP multiply_i/multiply_0/inst/multiply_v2015_0_S00_AXI_inst/tmp_reg0__0 input A B is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP multiply_i/multiply_0/inst/multiply_v2015_0_S00_AXI_inst/tmp_reg0 output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP multiply_i/multiply_0/inst/multiply_v2015_0_S00_AXI_inst/tmp_reg0__0 output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP multiply_i/multiply_0/inst/multiply_v2015_0_S00_AXI_inst/tmp_reg_reg__2 output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 5 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./multiply_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Common 17-83] Releasing license: Implementation
+write_bitstream: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 1690.574 ; gain = 362.148 ; free physical = 166 ; free virtual = 17501
+INFO: [Common 17-206] Exiting Vivado at Wed Nov  3 10:47:24 2021...
